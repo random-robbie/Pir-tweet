@@ -20,7 +20,7 @@ Config
 
 Alter the bits in between ''  to setup
 
-you can obtain them from http://dev.twitter.com
+you can obtain them from https://apps.twitter.com/
 
 ```
 TWEET_TEXT = "What do you Want to Tweet?"
