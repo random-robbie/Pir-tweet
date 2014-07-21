@@ -13,20 +13,29 @@ sudo apt-get install python-setuptools -y
 sudo pip install websocket-client requests python-magic TwitterAPI
 ```
 
-You will also need a pushbullet account from http://www.pushbullet.com
+
 
 Config
 ---
 
-You need to put your pushbullet API key in to pirmine.py
+Alter the bits in between ''  to setup
+
+you can obtain them from http://dev.twitter.com
 
 ```
-apiKey = "" and insert your pushbullet api key
+TWEET_TEXT = "What do you Want to Tweet?"
+
+
+CONSUMER_KEY = ''
+CONSUMER_SECRET = ''
+ACCESS_TOKEN_KEY = ''
+ACCESS_TOKEN_SECRET = ''
 ```
 
 
 
 Thanks to 
 ---
-https://github.com/raspberrypilearning/parent-detector
-https://github.com/geduldig/TwitterAPI
+Raspberry Pi Learning - https://github.com/raspberrypilearning/parent-detector
+
+geduldig - https://github.com/geduldig/TwitterAPI
