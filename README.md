@@ -9,7 +9,7 @@ Requirements
 
 ```
 sudo apt-get update
-sudo apt-get install python-setuptools -y
+sudo apt-get install python-setuptools python-pip -y
 sudo pip install websocket-client requests python-magic TwitterAPI
 ```
 
